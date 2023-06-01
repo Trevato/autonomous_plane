@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "author": "Uri Shaked",
+    "editor": "wokwi",
+    "parts": [
+      { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+      { "type": "wokwi-servo", "id": "servo1", "top": -71.07, "left": -198.66, "attrs": {} },
+      { "type": "wokwi-mpu6050", "id": "imu1", "top": 43.82, "left": 191.65, "attrs": {} },
+      { "type": "wokwi-servo", "id": "servo2", "top": 167.6, "left": 200, "attrs": {} }
+    ],
+    "connections": [
+      [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+      [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+      [ "servo1:GND", "esp:GND.1", "black", [ "h0" ] ],
+      [ "servo1:V+", "esp:VIN", "green", [ "h0" ] ],
+      [ "servo1:PWM", "esp:D26", "green", [ "h0" ] ],
+      [ "servo1:PWM", "esp:D14", "green", [ "h0" ] ],
+      [ "servo2:PWM", "esp:D14", "green", [ "h0" ] ],
+      [ "servo2:V+", "esp:VIN", "green", [ "h0" ] ],
+      [ "servo2:GND", "esp:GND.2", "black", [ "h0" ] ],
+      [ "imu1:VCC", "esp:3V3", "red", [ "v0" ] ],
+      [ "imu1:GND", "esp:GND.1", "black", [ "v0" ] ],
+      [ "imu1:SCL", "esp:D22", "green", [ "v0" ] ],
+      [ "imu1:SDA", "esp:D21", "green", [ "v0" ] ]
+    ],
+    "dependencies": {}
+  }

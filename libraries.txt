@@ -1,0 +1,6 @@
+# Wokwi Library List
+# See https://docs.wokwi.com/guides/libraries
+ServoESP32
+ESP32Servo
+PID_v1_bc
+MPU6050_tockn

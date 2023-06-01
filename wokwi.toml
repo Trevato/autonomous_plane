@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build\autonomous_plane.ino.bin'
+elf = 'build\autonomous_plane.ino.elf'
