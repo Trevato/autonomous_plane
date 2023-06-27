@@ -21,8 +21,28 @@
   },
   {
     "Sourcefile": "C:\\Users\\trevo\\Desktop\\autonomous_plane\\build\\sketch\\autonomous_plane.ino.cpp",
-    "Include": "ESP32Servo.h",
-    "Includepath": "C:\\Users\\trevo\\Documents\\Arduino\\libraries\\ESP32Servo\\src"
+    "Include": "Servo.h",
+    "Includepath": "C:\\Users\\trevo\\Documents\\Arduino\\libraries\\ServoESP32\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\trevo\\Desktop\\autonomous_plane\\build\\sketch\\autonomous_plane.ino.cpp",
+    "Include": "WiFi.h",
+    "Includepath": "C:\\Users\\trevo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.9\\libraries\\WiFi\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\trevo\\Desktop\\autonomous_plane\\build\\sketch\\autonomous_plane.ino.cpp",
+    "Include": "HTTPClient.h",
+    "Includepath": "C:\\Users\\trevo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.9\\libraries\\HTTPClient\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\trevo\\Desktop\\autonomous_plane\\build\\sketch\\autonomous_plane.ino.cpp",
+    "Include": "WiFiClientSecure.h",
+    "Includepath": "C:\\Users\\trevo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.9\\libraries\\WiFiClientSecure\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\trevo\\Desktop\\autonomous_plane\\build\\sketch\\autonomous_plane.ino.cpp",
+    "Include": "ArduinoJson.h",
+    "Includepath": "C:\\Users\\trevo\\Documents\\Arduino\\libraries\\ArduinoJson\\src"
   },
   {
     "Sourcefile": "C:\\Users\\trevo\\Desktop\\autonomous_plane\\build\\sketch\\autonomous_plane.ino.cpp",
@@ -45,22 +65,72 @@
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\trevo\\Documents\\Arduino\\libraries\\ESP32Servo\\src\\ESP32PWM.cpp",
+    "Sourcefile": "C:\\Users\\trevo\\Documents\\Arduino\\libraries\\ServoESP32\\src\\Servo.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\trevo\\Documents\\Arduino\\libraries\\ESP32Servo\\src\\ESP32Servo.cpp",
+    "Sourcefile": "C:\\Users\\trevo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.9\\libraries\\WiFi\\src\\WiFi.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\trevo\\Documents\\Arduino\\libraries\\ESP32Servo\\src\\ESP32Tone.cpp",
+    "Sourcefile": "C:\\Users\\trevo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.9\\libraries\\WiFi\\src\\WiFiAP.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\trevo\\Documents\\Arduino\\libraries\\ESP32Servo\\src\\analogWrite.cpp",
+    "Sourcefile": "C:\\Users\\trevo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.9\\libraries\\WiFi\\src\\WiFiClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\trevo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.9\\libraries\\WiFi\\src\\WiFiGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\trevo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.9\\libraries\\WiFi\\src\\WiFiMulti.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\trevo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.9\\libraries\\WiFi\\src\\WiFiSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\trevo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.9\\libraries\\WiFi\\src\\WiFiScan.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\trevo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.9\\libraries\\WiFi\\src\\WiFiServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\trevo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.9\\libraries\\WiFi\\src\\WiFiUdp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\trevo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.9\\libraries\\HTTPClient\\src\\HTTPClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\trevo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.9\\libraries\\WiFiClientSecure\\src\\WiFiClientSecure.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\trevo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.9\\libraries\\WiFiClientSecure\\src\\esp_crt_bundle.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\trevo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.9\\libraries\\WiFiClientSecure\\src\\ssl_client.cpp",
     "Include": "",
     "Includepath": null
   },
