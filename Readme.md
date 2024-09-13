@@ -2,11 +2,11 @@
 
 *Autonomous plane using an ESP32.*
 
+https://github.com/user-attachments/assets/27ce8b75-fb41-4a81-b79c-c0affe1f82ba
+
 ## Airleron control:
 
 PID controller takes the ouput from a MPU6050 accelerometer and gyroscope and adjusts the ailerons using servos to control roll angle.
-
-Click [here](https://drive.google.com/file/d/1l3Bz-jgkgPIahoIUOMaz5pyXz4iv__r2/view?usp=sharing) to see a simulation.
 
 ## Speed control:
 
