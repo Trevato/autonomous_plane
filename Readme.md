@@ -2,7 +2,8 @@
 
 *Autonomous plane using an ESP32.*
 
-https://github.com/user-attachments/assets/27ce8b75-fb41-4a81-b79c-c0affe1f82ba
+<img src="https://github.com/user-attachments/assets/27ce8b75-fb41-4a81-b79c-c0affe1f82ba" />
+
 
 ## Airleron control:
 
